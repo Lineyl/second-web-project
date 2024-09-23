@@ -56,57 +56,53 @@
 
     <footer class="footer">
       <div class="container-footer">
+        <div class="footer-line"></div>
+        <div class="footer-main">
+          <nav class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="#">Episodes</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#">Contact</a> 
+              </li>
+              <li class="footer-menu-item">
+                <a href="#">Donate</a>
+              </li>
+            </ul>
+          </nav>
 
-        <nav class="footer-menu">
-          <ul class="footer-menu-list">
-            <li class="footer-menu-item">
-              <a href="#">Episodes</a>
-            </li>
-            <li class="footer-menu-item">
-              <a href="#">Blog</a>
-            </li>
-            <li class="footer-menu-item">
-              <a href="#">Contact</a> 
-            </li>
-            <li class="footer-menu-item">
-              <a href="#">Donate</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="footer-sing-up">
-          <p class="footer-title">Newsletter</p>
-          <p class="footer-description">
-            Sign up now;  get closer to our action.
-          </p>
-          <div class="footer-email">
-            <form>
-              <label for="email-sing-up"></label>
-              <input type="email" id="email-sing-up" 
+          <div class="footer-sing-up">
+            <p class="footer-title">Newsletter</p>
+            <p class="footer-description">
+              Sign up now;  get closer to our action.
+            </p>
+            <form class="footer-email" action="/submit-email" method="post">
+              <input type="email" id="form-email" name="form-email" 
                 placeholder="Email  adress...">
+                <button class="email-btn"></button>
             </form>
-            <button>
-              <img src="public/images/footer/arrow-icon.svg" alt="arrow">
-            </button>
           </div>
         </div>
-      </div>
+        <p class="copy-text">
+          PodcastTheme By VitaThemes | 
+          <a href="#">Privacy policy</a> 
+        </p>
 
-      <p class="copy-text">
-        PodcastTheme by VitaThemes | 
-        <a href="#">Privacy policy</a> 
-      </p>
-
-      <div class="footer-icons">
-        <a href="#">
-          <img src="public/images/footer/Icon-facebook.svg" alt="facebook">
-        </a>
-        <a href="#">
-          <img src="public/images/footer/Icon-github.svg" alt="github">
-        </a>
-        <a href="#">
-          <img src="public/images/footer/Icon-twitter.svg" alt="twitter">
-        </a>
+        <div class="footer-icons">
+          <a href="#">
+            <img src="public/images/footer/Icon-facebook.svg" alt="facebook">
+          </a>
+          <a href="#">
+            <img src="public/images/footer/Icon-github.svg" alt="github">
+          </a>
+          <a href="#">
+            <img src="public/images/footer/Icon-twitter.svg" alt="twitter">
+          </a>
+        </div>
       </div>
     </footer>
   </div>

@@ -16,6 +16,10 @@ a {
   color: #222222;
 }
 
+input {outline:none;}
+
+/* Header */
+
 .container-header {
   display: flex;
   justify-content: space-between;
@@ -57,4 +61,74 @@ a {
 
 .header-line {
   border-bottom: 1px solid #EAEAEE;
+}
+
+/* Footer */
+
+.footer-line{
+  margin: 4rem 24rem 0 24rem;
+  border-bottom: 1px solid #EAEAEE;
+}
+
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 24rem 0 24rem;
+}
+
+.footer-menu-item{
+  margin-bottom: 1rem;
+}
+
+.footer-title{
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.footer-description{
+  color: #555555;
+  font-size: 0.75rem;
+  margin-bottom: 0.875rem;
+}
+
+.footer-email{
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f7;
+  border-radius: 0.25rem;
+}
+
+#form-email{
+  font-size: 0.75rem;
+  width: 17.25rem;
+  padding: 0.875rem;
+  background-color: #f5f5f7;
+  border: 0;
+  border-radius: 0.25rem;
+
+}
+
+.email-btn{
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-right : 0.25rem;
+  border: none;
+  background-color: #7247CA;
+  background-image: url('../images/footer/arrow-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.25rem;
+}
+
+.copy-text{
+  text-align: center;
+  margin-top: 5.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 42.125rem;
 }
