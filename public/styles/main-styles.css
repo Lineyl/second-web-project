@@ -223,6 +223,7 @@ button{
 .team-person{
   display: flex;
   flex-direction: column;
+  border-radius: 0.25rem;
   background-color: #f5f5f7;
 }
 
