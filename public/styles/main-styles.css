@@ -150,8 +150,8 @@ button{
 
 .timeline-line{
   width: 8.5rem;
-height: 0.5rem;
-background: #222222;
+  height: 0.5rem;
+  background: #222222;
   border-radius: 0.125rem;
 }
 
@@ -295,13 +295,13 @@ background: #222222;
   gap: 1rem;
 }
 
-.latest-posts-title{
+.posts-title{
   font-size: 1.625rem;
   font-weight: 600;
   margin-bottom: 1.625rem;
 }
 
-.latest-post{
+.post{
   display: flex;
   margin-bottom: 1.5rem;
 }
