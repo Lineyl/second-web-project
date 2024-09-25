@@ -1,0 +1,92 @@
+.main-title{
+    margin-bottom: 1rem;
+}
+
+/* .container-main-episode-description{
+    border-bottom: 1px solid #EAEAEE;
+} */
+
+.container-main-episode-info{
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #979797;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.main-episod-icons{
+    margin-bottom: 6.25rem;
+}
+
+.container-episode-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555555;
+    align-self: start;
+    margin-bottom: 3rem;
+    
+}
+
+.title-episode-description{
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #222222;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.short-episode-description{
+    line-height: 1.5rem;
+}
+
+.main-episode-description{
+    line-height: 1.5rem;
+}
+
+.container-transcript-btn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 1.5rem;
+    border: 0.0625rem solid #EAEAEE;
+    margin-bottom: 3rem;
+}
+
+.container-text-transcript{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+
+.arrow-transcript{
+    margin-left: 0.625rem;
+}
+
+.container-hashtags{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hashtag{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555555;
+}
+
+.container-share{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2.5rem 0;
+    margin-bottom: 3rem;
+    border-top: 1px solid #EAEAEE;
+    border-bottom: 1px solid #EAEAEE;
+}
