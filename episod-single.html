@@ -184,6 +184,49 @@
             </div>
           </div>
         </div>
+        <div class="container-create-comment">
+          <h3 class="title-form-comment">Leave a Reply</h3>
+          <p class="rule-form-comment">Required fields are marked *</p>
+          <form class="form-comment" action="#" method="post">
+            <p class="container-comment container-comment-text">
+              <label class="label-comment label-comment-text" for="comment">
+                Comment
+              </label>
+              <textarea class="form-input form-input-comment" type="text" name="comment" id="comment"></textarea>
+            </p>
+            <p class="container-comment container-comment-name">
+              <label class="label-comment label-comment-name" for="name">
+                Name*
+              </label>
+              <input class="form-input" type="text" name="name" id="name" required>
+            </p>
+            <p class="container-comment container-comment-email">
+              <label class="label-comment label-comment-email" for="email">
+                Email*
+              </label>
+              <input class="form-input" type="email" name="email" id="email" required>
+            </p>
+            <p class="container-comment container-comment-website">
+              <label class="label-comment label-comment-website" for="website">
+                Website*
+              </label>
+              <input class="form-input" type="url" name="website" id="website" required>
+            </p>
+            <p class="container-comment container-comment-checkbox">
+              <label class="label-comment label-comment-checkbox">
+                <input class="form-checkbox" type="checkbox" name="save-info">
+                Save my name, email, and website in this browser for the next time I comment
+              </label>
+            </p>
+            <p class="container-submit-btn">
+              <button class="form-submit-btn" type="submit">
+                Submit
+                <img class="form-submit-img" src="public/images/episod-single/Icon-arrow-submit.svg" 
+                alt="Icon-arrow-submit">
+              </button>
+            </p>
+          </form>
+        </div>
       </div>
     </main>
     <footer class="footer">

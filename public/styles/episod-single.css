@@ -90,3 +90,95 @@
     border-top: 1px solid #EAEAEE;
     border-bottom: 1px solid #EAEAEE;
 }
+
+.container-posts{
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #EAEAEE;
+}
+
+.container-create-comment{
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #EAEAEE;
+}
+
+.title-form-comment{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.rule-form-comment{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #979797;
+    margin-bottom: 2.25rem;
+}
+
+.form-comment {
+    display: flex;
+    flex-direction: column;
+ }
+
+
+.container-comment{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.75rem;
+}
+
+.label-comment{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 0.875rem;
+}
+
+.form-input{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.625rem;
+    border: 0;
+    border-radius: 0.25rem;
+    background-color: #F5F5F7;
+}
+
+.form-input-comment{
+    height: 9.375rem;
+    resize: none;
+}
+
+.label-comment-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-checkbox{
+    width: 1.125rem;
+    height: 1.125rem;
+    border-color: #222222;
+}
+
+.label-comment-checkbox {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.container-submit-btn{
+    display: flex;
+    align-items: center;
+}
+
+.form-submit-btn{
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    color: #ffffff;
+    background-color: #7247CA;
+}
+
+.form-submit-img{
+    margin-left: 0.5rem;
+}
