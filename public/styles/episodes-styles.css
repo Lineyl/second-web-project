@@ -1,0 +1,14 @@
+.container-main-content{
+    margin-top: 0;
+}
+
+.episodes-title{
+    margin-top: 6rem;
+    margin-bottom: 2.5rem;
+}
+
+.container-episodes{
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid #EAEAEE;
+}
