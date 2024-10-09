@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;1,8..60,600&display=swap" 
+    rel="stylesheet"
+  >
+  <title>CastPress - Contact</title>
+  <link rel="stylesheet" href="public/styles/main-styles.css">
+  <link rel="stylesheet" href="public/styles/contact-stules.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container-header">
+        <h1 class="header-logo">CastPress.</h1>
+
+        <nav class="header-nav">
+          <ul class="header-list">
+
+            <li class="header-list-item">
+              <div class="header-episodes">
+                <a class="header-list-link" href="#!">
+                  Episodes
+                  <img id="episodes-img" 
+                  src="public/images/header/Icon-arrow.svg" alt="arrow">
+                </a>
+              </div> 
+            </li>
+
+            <li class="header-list-item">
+              <a class="header-list-link" href="#!">Blog</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="#!">Contact</a>
+            </li>
+
+            <li class="header-list-item">
+              <div class="header-donate">
+                <a class="header-list-link" id="donate" href="#!">
+                  <img id="donate-img" 
+                  src="public/images/header/Icon-donate-heart.svg" alt="donate heart">
+                  Donate
+                </a>
+              </div>
+            </li>
+
+            <li class="header-list-item">
+              <a class="header-list-link" href="#!">
+                <img id="loupe" src="public/images/header/icon-loupe.svg" alt="loupe">
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+      <div class="header-line"></div>
+    </header>
+    
+    <main>
+      <div class="container-main-content">
+        <div class="contact-container">
+          <h2 class="contact-title">Contact</h2>
+          <p class="contact-title-descr">
+            Love to hear your thoughts, fears & feelings...
+          </p>
+          <form class="contact-form" action="" method="get">
+            <p class="contact-input-container">
+              <label class="contact-label-input" for="name">Name*</label>
+              <input class="contact-input" type="text" name="name" 
+              id="name" placeholder="Enter your name" required>
+            </p>
+            <p class="contact-input-container">
+              <label class="contact-label-input" for="email">Email*</label>
+              <input class="contact-input" type="email" name="email" 
+              id="email" placeholder="Enter your email" required>
+            </p>
+            <p class="contact-input-container">
+              <label class="contact-label-input" for="mes">Message</label>
+              <textarea class="contact-input contact-input-mes" type="text" name="mes" 
+              id="mes" placeholder="Enter your message"></textarea>
+            </p>
+            <p class="container-submit-btn">
+              <button class="form-submit-btn" type="submit">
+                Submit
+                <img class="form-submit-img" 
+                src="public/images/contact/Icon-arrow-submit.svg" 
+                alt="Icon-arrow-submit">
+              </button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="footer-main">
+          <nav class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="#">Episodes</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#">Contact</a> 
+              </li>
+              <li class="footer-menu-item">
+                <a href="#">Donate</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="footer-sing-up">
+            <p class="footer-title">Newsletter</p>
+            <p class="footer-description">
+              Sign up now;  get closer to our action.
+            </p>
+            <form class="footer-email" action="/submit-email" method="post">
+              <input type="email" id="form-email" name="form-email" 
+                placeholder="Email  adress...">
+                <button class="email-btn"></button>
+            </form>
+          </div>
+        </div>
+        <p class="copy-text">
+          PodcastTheme By VitaThemes | 
+          <a href="#">Privacy policy</a> 
+        </p>
+
+        <div class="footer-icons">
+          <a href="#">
+            <img src="public/images/footer/Icon-facebook.svg" alt="facebook">
+          </a>
+          <a href="#">
+            <img src="public/images/footer/Icon-github.svg" alt="github">
+          </a>
+          <a href="#">
+            <img src="public/images/footer/Icon-twitter.svg" alt="twitter">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
