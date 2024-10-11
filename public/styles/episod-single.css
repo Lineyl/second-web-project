@@ -262,8 +262,9 @@
 }
 
 .comment-reply-btn{
+    display: flex;
+    gap: 0.75rem;
     font-size: 0.875rem;
     font-weight: 400;
     color: #979797;
-    align-self: flex-start;
 }
