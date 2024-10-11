@@ -1,0 +1,49 @@
+.container-main-content{
+  margin-top: 6rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #EAEAEE;
+}
+
+.about-title{
+  font-size: 1.625rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.about-subtitle{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.about-descr{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555555;
+  margin-bottom: 2.5rem;
+}
+
+.about-team-person{
+  display: flex;
+  align-items: start;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.container-person-descr{
+  margin: 0;
+}
+
+.position-person{
+  font-size: 0.75rem;
+}
+
+.name-person{
+  margin-bottom: 1rem;
+}
+
+.about-person-descr{
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #555555;
+}

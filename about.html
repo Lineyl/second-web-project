@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;1,8..60,600&display=swap" 
+    rel="stylesheet"
+  >
+  <title>CastPress - About</title>
+  <link rel="stylesheet" href="public/styles/main-styles.css">
+  <link rel="stylesheet" href="public/styles/about-styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container-header">
+        <h1 class="header-logo">CastPress.</h1>
+
+        <nav class="header-nav">
+          <ul class="header-list">
+
+            <li class="header-list-item">
+              <div class="header-episodes">
+                <a class="header-list-link" href="#!">
+                  Episodes
+                  <img id="episodes-img" 
+                  src="public/images/header/Icon-arrow.svg" alt="arrow">
+                </a>
+              </div> 
+            </li>
+
+            <li class="header-list-item">
+              <a class="header-list-link" href="#!">Blog</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="#!">Contact</a>
+            </li>
+
+            <li class="header-list-item">
+              <div class="header-donate">
+                <a class="header-list-link" id="donate" href="#!">
+                  <img id="donate-img" 
+                  src="public/images/header/Icon-donate-heart.svg" alt="donate heart">
+                  Donate
+                </a>
+              </div>
+            </li>
+
+            <li class="header-list-item">
+              <a class="header-list-link" href="#!">
+                <img id="loupe" src="public/images/header/icon-loupe.svg" alt="loupe">
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+      <div class="header-line"></div>
+    </header>
+    
+    <main>
+      <div class="container-main-content">
+        <h2 class="about-title">About</h2>
+        <h3 class="about-subtitle">What, when and how?</h3>
+        <p class="about-descr">
+          Duis rutrum dictum libero quis rutrum. Etiam sed neque aliquam, 
+          sollicitudin ante a, gravida arcu. Nam fringilla molestie velit, 
+          eget pellentesque.
+          <br>Nam ac urna maximus, tempor magna et, placerat urna. 
+          Curabitur eu magna enim. Proin placerat tortor lacus, 
+          ac sodales lectus placerat quis. Curabitur ultricies ex ante, 
+          eu placerat ipsum hendrerit ut. 
+        </p>
+        <h3 class="about-subtitle">Team members</h3>
+        <div class="about-team-person">
+          <img class="photo-person" 
+            src="public/images/about/person-male.svg" 
+            alt="photo person">
+          <div class="container-person-descr">
+            <p class="position-person">Position</p>
+            <p class="name-person">Nick carleton</p>
+            <p class="about-person-descr">
+              Nam ac urna maximus, tempor magna et, placerat urna. 
+              Curabitur eu magna enim. Proin placerat tortor lacus, 
+              ac sodales lectus placerat quis. 
+            </p>
+            <div class="media-person-icons">
+              <a href="#">
+                <img src="public/images/main-index/Icon-linkedin.svg" 
+                alt="linkedin">
+              </a>
+              <a href="#">
+                <img src="public/images/main-index/Icon-github.svg" 
+                alt="github">
+              </a>
+              <a href="#">
+                <img src="public/images/main-index/Icon-twitter.svg" 
+                alt="twitter">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="about-team-person">
+          <img class="photo-person" 
+            src="public/images/about/person-female.svg" 
+            alt="photo person">
+          <div class="container-person-descr">
+            <p class="position-person">Position</p>
+            <p class="name-person">aida cave</p>
+            <p class="about-person-descr">
+              Nam ac urna maximus, tempor magna et, placerat urna. 
+              Curabitur eu magna enim. Proin placerat tortor lacus, 
+              ac sodales lectus placerat quis. 
+            </p>
+            <div class="media-person-icons">
+              <a href="#">
+                <img src="public/images/main-index/Icon-linkedin.svg" 
+                alt="linkedin">
+              </a>
+              <a href="#">
+                <img src="public/images/main-index/Icon-github.svg" 
+                alt="github">
+              </a>
+              <a href="#">
+                <img src="public/images/main-index/Icon-twitter.svg" 
+                alt="twitter">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="footer-main">
+          <nav class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="#">Episodes</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#">Contact</a> 
+              </li>
+              <li class="footer-menu-item">
+                <a href="#">Donate</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="footer-sing-up">
+            <p class="footer-title">Newsletter</p>
+            <p class="footer-description">
+              Sign up now;  get closer to our action.
+            </p>
+            <form class="footer-email" action="/submit-email" method="post">
+              <input type="email" id="form-email" name="form-email" 
+                placeholder="Email  adress...">
+                <button class="email-btn"></button>
+            </form>
+          </div>
+        </div>
+        <p class="copy-text">
+          PodcastTheme By VitaThemes | 
+          <a href="#">Privacy policy</a> 
+        </p>
+
+        <div class="footer-icons">
+          <a href="#">
+            <img src="public/images/footer/Icon-facebook.svg" alt="facebook">
+          </a>
+          <a href="#">
+            <img src="public/images/footer/Icon-github.svg" alt="github">
+          </a>
+          <a href="#">
+            <img src="public/images/footer/Icon-twitter.svg" alt="twitter">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
