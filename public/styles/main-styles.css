@@ -1,7 +1,9 @@
+@import "https://fonts.fontstorage.com/import/sourceserifpro.css";
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
-  font-family: "Source Serif 4";
+  font-family: 'Source Serif Pro';
 }
 
 ul {
@@ -42,6 +44,7 @@ button{
   align-items: center;
   gap: 2.5rem;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .header-list-link {
@@ -169,6 +172,7 @@ button{
   display: flex;
   align-items: center;
   margin-top: 0.75rem;
+  margin-bottom: 6.25rem;
   gap: 1.875rem;
 }
 
@@ -364,12 +368,14 @@ button{
 
 .footer-menu-item{
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .footer-title{
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  font-weight: 600;
 }
 
 .footer-description{
