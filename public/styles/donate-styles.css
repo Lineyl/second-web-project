@@ -1,0 +1,32 @@
+.container-main-content{
+  margin-top: 6rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #EAEAEE;
+}
+
+.donate-title{
+  font-size: 1.625rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.donate-descr{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555555;
+  margin-bottom: 2.5rem;
+}
+
+.donate-btn{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 1.375rem;
+  padding: 0.75rem 1.375rem;
+  border-radius: 0.25rem;
+  background-color: #7247CA;
+}
